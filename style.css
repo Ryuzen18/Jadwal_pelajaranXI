@@ -1,4 +1,4 @@
-/* styles.css */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -30,7 +30,7 @@ h1 {
 .day {
     min-width: 100%;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 10px 25px;
     background: #fff;
     border-right: 1px solid #ddd;
 }
@@ -58,7 +58,7 @@ h1 {
 
 button {
     padding: 10px 20px;
-    margin: 10px;
+    margin: 10px 25px;
     border: none;
     background-color: #007bff;
     color: #fff;
@@ -89,4 +89,51 @@ button:hover {
    text-align: center;
     color: #3333337b;
     font-weight: 600;
+}
+
+.daySelasa-sabtu {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+    background: #fff;
+   
+}
+
+.daySelasa-sabtu h2 {
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.daySelasa-sabtu ul {
+    list-style: none;
+    padding: 0;
+ /* Gaya list berbeda */
+}
+
+.daySelasa-sabtu ul li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navigation-buttons {
+    margin-top: 20px;
+ 
+}
+
+.navigation-buttons button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.navigation-buttons button:hover {
+    background-color:  #0056b3; 
 }
